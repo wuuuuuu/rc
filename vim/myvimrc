@@ -1,0 +1,26 @@
+set nocompatible
+set nu
+syntax on
+filetype on
+filetype plugin on
+set ruler
+set showcmd
+set showmatch
+set autoindent
+set smartindent
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set expandtab
+set nohlsearch
+set incsearch
+set history=1000
+set nobackup
+set list
+set lcs=tab:>-,trail:~,nbsp:~
+colorscheme darkblue
+set background=dark
+set t_Co=256
+let &termencoding=&encoding
+set fileencodings=utf-8,gbk,ucs-bom,cp936
+

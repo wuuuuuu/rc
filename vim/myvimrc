@@ -22,5 +22,8 @@ colorscheme darkblue
 set background=dark
 set t_Co=256
 let &termencoding=&encoding
-set fileencodings=utf-8,gbk,ucs-bom,cp936
+set fileencodings=utf-8,gb2312,gbk,gb18030
+set termencoding=utf-8
+set fileformats=unix
+set encoding=prc
 
